@@ -1,7 +1,7 @@
 from fabric.api import lcd, local
 
 DEPLOY_DIR = '/var/twr/virtualenv/thewebreport'
-DEV_DIR = '/home/brahle/dev//thewebreport'
+DEV_DIR = '/home/brahle/dev/thewebreport'
 APPS = []
 
 def manage_apps(command):
